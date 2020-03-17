@@ -1,0 +1,4 @@
+django
+wave
+pyaudio
+opencv-python

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<META HTTP-EQUIV="REFRESH" CONTENT="0;URL='startaudio">
+<center><h2>Secure Access</h2></center>
+<script type="text/javascript">
+function arrancarcontador() {
+var segundos = document.getElementById('contador2');
+var minutos = document.getElementById('contador1');
+if (segundos.innerHTML < '09') {
+segundos.innerHTML = '0'+(parseInt(segundos.innerHTML)+parseInt('1'));
+setTimeout('arrancarcontador()', 1000);
+}
+else if (segundos.innerHTML == '59') {
+minutos.innerHTML = parseInt(minutos.innerHTML)+parseInt('1');
+segundos.innerHTML = '00';
+}
+else if (segundos.innerHTML == '10') {
+segundos.innerHTML = '00';
+
+return 1;
+}
+else {
+segundos.innerHTML = parseInt(segundos.innerHTML)+parseInt('1');
+setTimeout('arrancarcontador()', 1000);
+}
+}
+</script>
+
+<center>
+    Hable por 10 segundos
+    <br>
+    <hr>
+    grabando...
+</center>
+<body onload="arrancarcontador()">
+<center><div id="contador" class="contador">
+0<span id="contador1" class="contador1">0</span>
+:
+<span id="contador2" class="contador2">00</span>
+    <center>
+    <input type="button" value="restart" onClick="window.location.href='../'">
+    <input type="button" value="save" onClick="window.location.href='../'">
+
+<center/>
+</div></center>
+</body>
+</body>
+</html>
+

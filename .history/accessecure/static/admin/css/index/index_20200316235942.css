@@ -1,0 +1,37 @@
+*{
+    text-align: center;
+    font-family: 'PT Serif', serif;
+}
+
+body{
+    background-image: url(../../img/background.jpg);
+    background-size: cover;
+}
+
+h1{
+    color: #072D5C;
+    /* color: #1D3759; */
+    letter-spacing: 0.3em;
+    font-size: 40px;
+}
+
+.options{
+    border: solid #1D3759;
+    border-width: 2px 0px;
+    width: 90vw;
+    margin: 0 auto;
+}
+
+input{
+    margin: 20px;
+    height: 40px;
+    padding: 10px;
+    letter-spacing: 0.2em;
+    /* background-color: #072D5C;
+    border: 2px solid #406FA8; */
+    background-color: #083469;
+    border: 2px solid #0D53A8;
+    border-style: outset;
+    color: A8931E;
+
+}

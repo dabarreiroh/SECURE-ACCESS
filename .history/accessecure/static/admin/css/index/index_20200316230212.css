@@ -1,0 +1,12 @@
+*{
+    text-align: center;
+}
+
+body{
+    background-image: url(../../img/background.jpg);
+    background-size: cover;
+}
+
+h1{
+    color: lightgrey;
+}

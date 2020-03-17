@@ -1,0 +1,26 @@
+*{
+    text-align: center;
+    font-family: 'PT Serif', serif;
+}
+
+body{
+    background-image: url(../../img/background.jpg);
+    background-size: cover;
+}
+
+h1{
+    color: #1D3759;
+    /* color: #072D5C; */
+}
+
+.options{
+    border: solid #1D3759;
+    border-width: 2px 0px;
+    width: 90vw;
+    margin: 0 auto;
+}
+
+input{
+    margin: 20px;
+    height: 30px;
+}
